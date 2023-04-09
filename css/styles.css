@@ -1,0 +1,262 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:   Cedric Biteghe
+   Date:     2023-04-09
+   
+  
+
+*/
+
+* {
+margin : 0;
+padding : 0;
+}
+body {
+font-size : 1.1em;
+font-family : Arial, Helvetica, sans-serif;
+background-color : lightgreen;
+box-shadow : 10px 0 40px rgb(51, 51, 51), -10px 0 40px rgb(51, 51, 51);
+border-left : 1px solid rgb(153, 0, 153);
+border-right : 1px solid rgb(153, 0, 153);
+height : 100%;
+margin : 0 auto;
+min-width : 320px;
+max-width : 1200px;
+width : 100%;
+}
+
+
+
+#container {
+width : 930px;
+margin : 0 auto;
+background-color : white;
+width: 960px;
+border: thin none #1227ac;
+position:relative;
+min-height:100%;
+padding-bottom:20px;
+}
+header {
+background-color: #04AA6D;
+width : 910px;
+margin-bottom : 30px;
+margin-top : 10px;
+text-align : center;
+border : #888888 solid 1px;
+box-shadow : 15px 15px 5px 0 #888888;
+border-radius : 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+}
+
+
+
+nav {
+width : 910px;
+margin : 0 5px 0 5px;
+padding : 25px 10px 0 10px;
+float : left;
+text-align : center;
+}
+nav ul {
+font-weight : bold;
+list-style : none;
+}
+nav ul li a {
+float : left;
+padding : 20px;
+color : gray;
+text-decoration : none;
+display : block;
+}
+nav ul li a:hover {
+background : gray;
+border-radius : 10px;
+color : white;
+}
+#main {
+width : 446px;
+padding : 10px;
+float : left;
+color : black;
+border-left : 2px solid;
+border-right : 2px solid;
+background-image : url(images/imagethree.jpg);
+}
+#main p {
+text-indent : 1.5em;
+}
+
+label {
+	width:240px;
+	display: inline-block;
+	text-align: right;
+}
+
+figure {
+padding-top : 10px;
+text-align : center;
+}
+figcaption {
+font-style : italic;
+}
+section#right {
+padding : 0 15px 0 15px;
+}
+aside {
+border : rgb(153, 0, 153) solid 1px;
+border-radius : 20px;
+box-shadow : 5px 5px 10px rgb(131, 131, 131) inset, -5px -5px 10px rgb(131, 131, 131) inset, -5px 5px 25px rgb(51, 51, 51);
+margin : 15px 0;
+width : 100%;
+overflow: auto;
+}
+aside#current {
+background-color : rgb(218, 210, 218);
+}
+aside#current p {
+border-left : 4px solid rgb(153, 0, 153);
+font-size : 0.9em;
+}
+aside p:last-of-type {
+margin-bottom : 25px;
+}
+aside h1 {
+background-color : rgb(153, 0, 153);
+border-radius : 10px;
+color : white;
+font-size : 0.9em;
+text-align : center;
+margin : 10px;
+}
+
+#table1 {
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+#table2 {
+  border-collapse: separate;
+  border-spacing: 15px 50px;
+}
+
+aside h2 {
+color : black;
+text-align : left;
+font-size : 0.9em;
+line-height : 0.95;
+margin : 15px;
+}
+aside p {
+border-left : 4px solid rgb(255, 202, 255);
+font-size : 0.7em;
+padding : 0 0 0 5px;
+margin : 10px 25px;
+}
+aside#future {
+background-color : white;
+}
+aside {
+width : 200px;
+height : 550px;
+object-fit : cover;
+margin : 0 5px 0 2px;
+padding : 10px;
+object-fit : cover;
+}
+img {
+border : 0;
+vertical-align : middle;
+margin-right: 10px;
+margin-bottom: 5px;
+border: solid black 1px;
+padding: 1px;
+}
+
+style {
+	float: right;
+}
+
+figure {
+margin : 0;
+float: left;
+}
+aside {
+width : 500px;
+margin : 0 5px 0 5px;
+padding : 10px;
+}
+aside p {
+font-style : italic;
+font-size : 0.9em;
+}
+image {
+max-height : 100%;
+max-width : 100%;
+}
+h2 {
+font-size : 1.4em;
+text-align : center;
+padding-bottom : 0.5em;
+}
+h3 {
+text-align : center;
+padding-bottom : 0.5em;
+padding-top : 0.5em;
+}
+footer {
+width : 910px;
+margin : 0;
+padding : 10px;
+background-color : gray;
+clear : both;
+color : wheat;
+font-weight : bold;
+text-align : center;
+border-bottom-left-radius : 25px;
+border-bottom-right-radius : 25px;
+}
+#wrapper {
+width : 930px;
+margin-bottom : 10px;
+border : solid 2px;
+border-radius : 25px;
+}
+footer a:link {
+color : white;
+text-decoration : none;
+}
+footer a:visited {
+color : navy;
+background-color : grey;
+text-decoration : none;
+}
+footer a:hover {
+text-decoration : underline;
+}
